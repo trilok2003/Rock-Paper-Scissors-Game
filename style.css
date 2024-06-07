@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgba(128, 255, 0, 0.534);
+}
+#title{
+    background-color: rgb(10, 10, 48);
+    color: aliceblue;
+}
+h1{
+    height: 6rem;
+    line-height: 6rem;
+}
+.choises{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+.choise{
+    height: 160px;
+    width: 160px;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.choise img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choise:hover{
+    background-color: rgb(35, 81, 81);
+    border: 5px solid yellow;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+#userScore, #compScore{
+    font-size: 3rem;
+}
+.msgContainer{
+    background-color: rgb(75, 27, 27);
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin: 3rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.display{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 2rem;
+}
+.choiceDisplay{
+    background-color: rgb(5, 1, 32);
+    color: wheat;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+#userInput, #compInput{
+    font-size: 2rem;
+    color: yellow;
+}
